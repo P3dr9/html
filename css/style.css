@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.centro {
+  text-align: center;
+  padding: 5px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #05001a, #001f3f, #0074D9, #00d4ff);
+  color: #e2e8f0;
+}
+
+header {
+  padding: 23px 15px;
+  background: #020617;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.principal-index p {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+nav a {
+  display: inline-block;
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 10px 16px;
+  border-radius: 8px;
+
+}
+
+.ativo {
+  background-color: #047088;
+}
+
+nav a:hover {
+  background: #047088;
+  color: white;
+}
+
+.minha-foto {
+  display: flex;
+  width: 210px;
+  height: 210px;
+  object-fit: cover;
+  margin: 25px auto;
+  border-radius: 110px;
+  border: 4px solid #3b82f6;
+}
+
+.foto-sobre {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #3b82f6;
+}
+
+.alinhamento {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  flex-wrap: wrap;
+
+}
+
+.botoes-git {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.botoes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 25px;
+}
+
+.botoes a {
+  text-decoration: none;
+  gap: 15px;
+}
+
+button {
+  border: none;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.botao-php {
+  background: #7c3aed;
+}
+
+.botao-php:hover {
+  background: #6d28d9;
+}
+
+.secao-caixas {
+  width: 900px;
+  margin: 35px auto;
+  padding: 35px;
+  background: rgba(15, 23, 42, 0.88);
+  border: 1px solid #334155;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.secao-caixas h2 {
+  color: #93c5fd;
+  margin-bottom: 25px;
+}
+
+.conjuntoF,
+.conjuntoT {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.conjuntoT {
+  margin-bottom: 25px;
+}
+
+.caixinha {
+  width: 140px;
+  padding: 18px 22px;
+  background: #1e40af;
+  border: 1px solid #60a5fa;
+  border-radius: 12px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.caixinha:hover {
+  background: #2563eb;
+  width: 150px;
+}
+
+.principal {
+  text-align: left;
+}
+
+.principal h1 {
+  text-align: center;
+}
+
+.historia {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin: 0 15px 15px 15px;
+}
+
+.card {
+  background: rgba(15, 23, 42, 0.88);
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #60a5fa;
+}
+
+.card h3 {
+  color: #60a5fa;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.principal p {
+  margin: 18px 0;
+  color: #cbd5e1;
+}
+
+.principal strong {
+  color: #60a5fa;
+}
+
+.principal-contato {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  margin: 20px auto 60px auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.principal-contato h2 {
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.principal-contato p {
+  margin-bottom: 15px;
+}
+
+
+.contatos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  max-width: 360px;
+  margin: 25px auto 50px auto;
+}
+
+.principal-contato strong {
+  width: 100%;
+  font-size: 30px;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e293b;
+  border: 2px solid #3b82f6;
+  border-radius: 10px;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  gap: 10px;
+  width: 160px;
+  padding: 12px;
+}
+
+.contato img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.rodape {
+  margin-top: 40px;
+  padding: 15px 0px;
+  text-align: center;
+  background: #020617;
+  border-top: 1px solid #334155;
+  color: #94a3b8;
+}
+
+.rodape h5 {
+  font-size: 14px;
+}
